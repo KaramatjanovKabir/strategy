@@ -1,0 +1,32 @@
+main {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position: 10% 40%;
+  padding: 3rem;
+  background-attachment: fixed;
+
+  article {
+    max-width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    margin: 1.5rem 0;
+
+    h1 {
+      margin: 1rem 0;
+      font-size: 2.5rem;
+    }
+
+    p {
+      font-size: 17px;
+      color: rgb(73, 73, 73);
+      line-height: 27px;
+    }
+  }
+  @media (max-width: 800px) {
+    article {
+      padding: 1rem;
+    }
+  }
+}
