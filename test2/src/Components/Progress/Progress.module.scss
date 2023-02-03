@@ -1,0 +1,79 @@
+.ProgressWrapper {
+  text-align: center;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 4rem 0;
+  }
+
+  .Comfort1,
+  .Comfort2 {
+    display: flex;
+    margin: 2rem 0;
+
+    article {
+      display: flex;
+      text-align: start;
+      padding: 0 3rem;
+      justify-content: center;
+      align-items: flex-start;
+
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(76, 76, 76);
+      }
+    }
+
+    .StepsColor1,
+    .StepsColor2,
+    .StepsColor3,
+    .StepsColor4 {
+      width: 150px;
+      height: 50px;
+      background-color: #f2795a;
+      margin-right: 1rem;
+      border-radius: 50%;
+    }
+  }
+
+  img {
+    max-width: 70%;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    float: left;
+    margin: 4rem 0;
+  }
+
+  @media (max-width: 1000px) {
+    .ProgressWrapper {
+      padding: 1rem;
+    }
+    .Comfort1,
+    .Comfort2 {
+      flex-direction: column;
+
+      article {
+        margin: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(76, 76, 76);
+        padding: 1rem;
+        border-radius: 10px;
+
+        p {
+          margin-top: 10px;
+        }
+      }
+
+      .StepsColor1,
+      .StepsColor2,
+      .StepsColor3,
+      .StepsColor4 {
+        max-width: 50px;
+      }
+    }
+  }
+}

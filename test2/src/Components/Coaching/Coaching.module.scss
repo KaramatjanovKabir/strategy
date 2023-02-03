@@ -1,0 +1,89 @@
+.coachingWrapper {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+
+  .coachingBackground {
+    background-color: rgba(0, 0, 0, 0.355);
+    height: 100%;
+    object-position: 90% 60%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-attachment: fixed;
+
+    h1 {
+      font-size: 4rem;
+      letter-spacing: 1px;
+    }
+
+    p {
+      font-size: 27px;
+      line-height: 34px;
+      max-width: 990px;
+      text-align: center;
+      margin: 2rem 0 4rem 0;
+    }
+
+    .coachingButton {
+      .whiteButton {
+        color: white;
+        background-color: black;
+        width: 200px;
+        border: none;
+        padding: 1rem;
+        border-radius: 30px;
+        font-size: 18px;
+        margin-top: 10px;
+        cursor: pointer;
+        margin-right: 1.5rem;
+
+        &:hover {
+          background-color: white;
+          color: black;
+          transition: 0.5s all;
+        }
+      }
+
+      .blackButton {
+        background-color: white;
+        width: 200px;
+        border: none;
+        padding: 1rem;
+        border-radius: 30px;
+        font-size: 18px;
+        margin-top: 10px;
+        cursor: pointer;
+        color: black;
+
+        &:hover {
+          background-color: black;
+          color: white;
+          transition: 0.5s all;
+        }
+      }
+    }
+  }
+  @media (max-width: 800px) {
+    .coachingBackground {
+      padding: 1rem;
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 17px;
+      }
+
+      .coachingButton {
+        .whiteButton {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

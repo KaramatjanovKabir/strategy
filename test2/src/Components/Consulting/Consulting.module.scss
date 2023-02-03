@@ -14,14 +14,14 @@
 .ArticleContainer {
   display: flex;
   padding: 2rem 4rem;
-  justify-content: space-between;
+  justify-content: space-around;
 
   .Development {
     display: flex;
     background-color: #53627f;
     padding: 2rem 1rem 3rem 1rem;
     border-radius: 10px;
-    max-width: 340px;
+    max-width: 400px;
     margin-bottom: 1rem;
 
     &:hover {
@@ -41,7 +41,7 @@
     background-color: #bbae9d;
     padding: 2rem 1rem 3rem 1rem;
     border-radius: 10px;
-    max-width: 340px;
+    max-width: 400px;
     margin-bottom: 1rem;
 
     &:hover {
@@ -61,7 +61,7 @@
     background-color: #f2795a;
     padding: 2rem 1rem 3rem 1rem;
     border-radius: 10px;
-    max-width: 340px;
+    max-width: 400px;
     margin-bottom: 1rem;
 
     &:hover {

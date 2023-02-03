@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Steps.module.scss";
-
+import HeadShake from "react-reveal/HeadShake";
 function Steps() {
   return (
     <main
@@ -10,30 +10,39 @@ function Steps() {
       }}
     >
       <article>
-        <h1>01</h1>
-        <p>
-          Sample text. Click to select the text box. Click again or double click
-          to start editing the text. Duis aute irure dolor in reprehenderit in
-          voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </p>
+        <HeadShake>
+          <h1>01</h1>
+          <p>
+            Sample text. Click to select the text box. Click again or double
+            click to start editing the text. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+        </HeadShake>
       </article>
 
       <article>
-        <h1>02</h1>
-        <p>
-          Sample text. Click to select the text box. Click again or double click
-          to start editing the text. Duis aute irure dolor in reprehenderit in
-          voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </p>
+        <HeadShake>
+          <h1>02</h1>
+          <p>
+            Sample text. Click to select the text box. Click again or double
+            click to start editing the text. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+        </HeadShake>
       </article>
 
       <article>
-        <h1>03</h1>
-        <p>
-          Sample text. Click to select the text box. Click again or double click
-          to start editing the text. Duis aute irure dolor in reprehenderit in
-          voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </p>
+        <HeadShake>
+          <h1>03</h1>
+          <p>
+            Sample text. Click to select the text box. Click again or double
+            click to start editing the text. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+        </HeadShake>
       </article>
     </main>
   );
